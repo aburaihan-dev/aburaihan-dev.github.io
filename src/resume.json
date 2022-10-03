@@ -1,0 +1,254 @@
+{
+    "basics": {
+      "name": "Md. Abu Raihan Srabon",
+      "label": "Software/DevOps Engineer",
+      "picture": "images/aburaihansrabon.png",
+      "email": "mdaburaihansrabon@gmail.com",
+      "phone": "+8801827073009",
+      "url": "https://aburaihan-dev.github.io",
+      "summary": "Going on 5+ years of experience in Software engineering. I'm currently working as a Software/DevOps Engineer. I’m interested in building distributed, cloud native applications, service management, monitoring and site reliability engineering.",
+      "location": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "countryCode": "BGD",
+        "region": "Dhaka"
+      },
+      "profiles": [
+        {
+            "network": "DEV Community",
+            "username": "msrabon",
+            "url": "https://dev.to/msrabon",
+            "x_icon": "fab fa-2x fa-dev"
+          },
+          {
+            "network": "LinkedIn",
+            "username": "mdaburaihan",
+            "url": "https://www.linkedin.com/in/mdaburaihan",
+            "x_icon": "fab fa-2x fa-linkedin"
+          },
+          {
+            "network": "GitHub",
+            "username": "aburaihan-dev",
+            "url": "https://github.com/aburaihan-dev",
+            "x_icon": "fab fa-2x fa-github"
+          }
+      ]
+    },
+    "work": [
+        {
+            "company": "Synesis IT",
+            "position": "Senior Programmer",
+            "startDate": "2021-01-31",
+            "endDate": "",
+            "highlights": [],
+            "summary": "",
+            "url": "https://www.linkedin.com/company/657942",
+            "location": "Dhaka, Bangladesh"
+          },
+          {
+            "company": "Synesis IT",
+            "position": "Programmer",
+            "startDate": "2017-09-30",
+            "endDate": "2021-01-31",
+            "highlights": [],
+            "summary": "",
+            "url": "https://www.linkedin.com/company/657942",
+            "location": "Bangladesh"
+          }
+    ],
+    "volunteer": [
+        {
+          "organization": "United international university",
+          "position": "Volunteer",
+          "startDate": "2014-07-31",
+          "endDate": "2014-08-31",
+          "summary": "Volunteered at the \"UIU CSE Ramadan meet 2014\"",
+          "highlights": [],
+          "url": "https://www.linkedin.com/company/2057465"
+        }
+    ],
+    "education": [
+        {
+            "institution": "United International University",
+            "area": "Data Science",
+            "studyType": "Master of Science - MS",
+            "startDate": "2020-01-31",
+            "endDate": "2022-02-28",
+            "score": "",
+            "courses": [
+                "CSE 6011 - Data Mining",
+                "CSE 6207 - Data Analytics",
+                "CSE 6211 - Deep Learning",
+                "CSE 6131 - Computational Intelligence",
+                "CSE 6115 - Financial Informatics",
+                "CSE 6127 - Networks Security",
+                "CSE 6177 - Ethical Hacking"
+            ]
+          },
+          {
+            "institution": "United International University",
+            "area": "Computer Science And Engineering",
+            "studyType": "Bachelor of Science (B.Sc.)",
+            "startDate": "2012-12-31",
+            "endDate": "2017-9-30",
+            "score": "",
+            "courses": [
+                "CSE 465 - Web Programming",
+                "CSE 471 - Advanced Object Oriented Programming",
+                "CSE 481 - Mobile Application Development",
+                "CSI 311 - System Analysis and Design",
+                "CSI 321 - Software Engineering",
+                "CSI 341 - Artificial Intelligence"
+            ]
+          },
+          {
+            "institution": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+            "area": "Java SE 7",
+            "studyType": "Oracle University Certified Java SE 7 Programmer",
+            "startDate": "2016-08-1",
+            "endDate": "2016-12-31",
+            "score": "",
+            "courses": [
+                "Oracle Java SE 7"
+            ]
+          }
+    ],
+    "awards": [
+        {
+            "title": "Employee of the Month, Category: Discipline",
+            "date": "2018-05-31",
+            "awarder": "Synesis IT",
+            "summary": "This certificate was presented in recognition of punctuality, sincerity and job performance."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certified Scrum Developer® CSD®",
+            "issuer": "Scrum Alliance",
+            "endDate": "2023-08-31",
+            "startDate": "2018-10-31",
+            "url": "https://www.scrumalliance.org/community/profile/msrabon",
+            "x_imageName": "seal-csd.png"
+
+        },
+        {
+        "name": "Advanced Certified Scrum Developer",
+        "issuer": "Scrum Alliance",
+        "endDate": "2023-08-31",
+        "startDate": "2018-10-31",
+        "url": "https://www.scrumalliance.org/community/profile/msrabon",
+        "x_imageName": "seal-advcsd.png"
+        },
+        {
+        "name": "Certified ScrumMaster® CSM®",
+        "issuer": "Scrum Alliance",
+        "endDate": "2023-08-31",
+        "startDate": "2018-10-31",
+        "url": "https://www.scrumalliance.org/community/profile/msrabon",
+        "x_imageName": "seal-csm.png"
+        },
+        {
+        "name": "Verified International Academic Qualifications",
+        "issuer": "World Education Services",
+        "startDate": "2019-05-31",
+        "url": "https://t.cred.ly/DJd4GjMRAb5nXFDRc_Gxvg,,$$$-vSkfoZy_6c_oPIYpu8kCopIoojMMkV9K_AG1HLdyDyb09G63wXSckPwuMlR8YAKhqGYILIOjzjyp08PnREI7lJVN2jPlUckibDQy_A-8bM,?r=https%3A%2F%2Fwes.credly.com%2Fmember-badges%2F17790095&t=1556947257",
+        "x_imageName": "ca92a9b7a4c63f4332f69ca309db9235_17.png"
+        }
+    ],
+    "publications": [],
+    "skills": [
+        {
+          "name": "Java",
+          "x_icon": "fa-brands fa-java",
+          "x_description": "Writting Enterprise and Product domain microservices with Java"
+        },
+        {
+          "name": "Containers",
+          "x_icon": "fa-brands fa-docker",
+          "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes"
+        },
+        {
+          "name": "CI/CD",
+          "x_icon": "fa-infinity",
+          "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        },
+        {
+          "name": "Monitoring",
+          "x_icon": "fa-chart-line",
+          "x_description": "Implementing centralized monitoring solution for cloud environments with Telegraf, InfluxDB and Grafana"
+        },
+        {
+          "name": "Python",
+          "x_icon": "fa-brands fa-python",
+          "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+        },
+        {
+          "name": "AWS",
+          "x_icon": "fa-brands fa-aws",
+          "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+        },
+        {
+          "name": "Infrastructure as Code",
+          "x_icon": "fa-code",
+          "x_description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+        },
+        {
+          "name": "Configuration Management",
+          "x_icon": "fa-gears",
+          "x_description": "Launching, configuring and maintaining cloud environments with Ansible"
+        },
+        {
+          "name": "Serverless",
+          "x_icon": "fa-bolt",
+          "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+        }
+      ],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [
+        {
+        "name": "Foodie",
+        "x_icon": "fa-utensils"
+        },
+        {
+        "name": "Live in the now",
+        "x_icon": "fa-brain"
+        },
+        {
+            "name": "Gaming",
+            "x_icon": "fa-gamepad-modern"
+        },
+        {
+            "name": "Vr-Gaming",
+            "x_icon": "fa-vr-cardboard"
+        },
+        {
+            "name": "Travel bug",
+            "x_icon": "fa-globe-asia"
+        }
+    ],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "description": "Description…",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "keywords": [
+        "HTML"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "url": "https://project.com/",
+      "roles": [
+        "Team Lead"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    }]
+  }

@@ -1,0 +1,487 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Md. Abu Raihan Srabon",
+    "label": "Senior Programmer @ Synesis IT | CSD®, A-CSD®, CSM® | Full Stack Software Engineer | DevOps Engineer",
+    "image": "",
+    "email": "mdaburaihansrabon@gmail.com",
+    "phone": "01827073009",
+    "url": "",
+    "summary": "Experienced Full Stack Software Engineer with a demonstrated history in the industry and high-level proficiency in the following programs: Java, Javascript, SQL, PHP, Python, and Angular/Vue, expertise with Front-End and Back-End development seeks to establish a career as the Full Stack Software Engineer for Renaissance Tech Developers. I am very familiar and experienced with Web Application Architecture like SOA, Microservice, PaaS, SaaS and is working with a successful agile development team.",
+    "location": {
+      "countryCode": "US",
+      "address": "Bangladesh"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mdaburaihan",
+        "url": "https://www.linkedin.com/in/mdaburaihan/"
+      },
+      {
+        "network": "Twitter",
+        "username": "RAIHAN708",
+        "url": "https://twitter.com/RAIHAN708"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Synesis IT",
+      "position": "Senior Programmer",
+      "startDate": "2021-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "o\tWrite maintainable and extensible code in a team environment.\no\tRapidly prototype new capabilities to confirm feasibility.\no\tWorked effectively with design teams to ensure software solutions elevated the client-side experience.\no\tResearch, design, and implement scalable applications for information identification, extraction, analysis, retrieval, and indexing.\no\tDirect software design and development while remaining focused on client needs.\no\tCollaborate closely with other team members to plan, design, and develop robust solutions.\no\tModified existing software to correct errors, upgrade interfaces, and improve performance.",
+      "url": "https://www.linkedin.com/company/657942",
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "name": "Synesis IT",
+      "position": "Programmer",
+      "startDate": "2017-09-30",
+      "endDate": "2021-01-31",
+      "highlights": [],
+      "summary": "o\tWrite maintainable and extensible code in a team environment.\no\tRapidly prototype new capabilities to confirm feasibility.\no\tWorked effectively with design teams to ensure software solutions elevated the client-side experience.\no\tResearch, design, and implement scalable applications for information identification, extraction, analysis, retrieval, and indexing.\no\tDirect software design and development while remaining focused on client needs.\no\tCollaborate closely with other team members to plan, design, and develop robust solutions.\no\tModified existing software to correct errors, upgrade interfaces, and improve performance.",
+      "url": "https://www.linkedin.com/company/657942",
+      "location": "Bangladesh"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "United international university",
+      "position": "Volunteer",
+      "startDate": "2014-07-31",
+      "endDate": "2014-08-31",
+      "summary": "Volunteered at the \"UIU CSE Ramadan meet 2014\"",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/2057465"
+    }
+  ],
+  "education": [
+    {
+      "institution": "United International University",
+      "area": "Data Science",
+      "studyType": "Master of Science - MS",
+      "startDate": "2020-01-31",
+      "endDate": "2022-02-28",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "United International University",
+      "area": "Computer Science And Engineering",
+      "studyType": "Bachelor of Science (B.Sc.)",
+      "startDate": "2012-12-31",
+      "endDate": "2017-12-31",
+      "score": "",
+      "courses": [
+        "CSE 471 - Advanced Object Oriented Programming ( C# )",
+        "CSI 227 - Algorithms",
+        "CSE 236 - Assembly Programming Language",
+        "CSE 313 - Computer Architecture",
+        "CSI 341 - Artificial Intelligence"
+      ]
+    },
+    {
+      "institution": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+      "area": "Java SE 7",
+      "studyType": "Oracle University Certified Java SE 7 Programmer",
+      "startDate": "2016-12-31",
+      "endDate": "2016-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Employee of the Month, Category: Discipline",
+      "date": "2018-05-31",
+      "awarder": "Synesis IT",
+      "summary": "This certificate was presented in recognition of punctuality, sincerity and job performance."
+    },
+    {
+      "title": "2 nd Runner up in BRACathonII-2017 as Android Developer (Team: Creative Crew).",
+      "date": "2017-03-31",
+      "awarder": "Brac",
+      "summary": "BRACathon is a platform to put your codes into action. Coding enthusiasts from across the country will come together to create mobile applications to solve real problems.\n\nYou could be a student, an academic or an entrepreneur waiting to turn your big idea into a reality.  Want to change Bangladesh? This is your opportunity to make a difference through coding.\n\nIndustry leaders will attend and judge the effectiveness of your solutions, and your ideas will be tested in the field.\n\nWhich team will prevail and what will they create? Stay tuned for the coming weeks as the coverage of the event continues. Be sure to follow our live updates on our social media!\nLink: http://bracathon.brac.net/about-bracathon"
+    },
+    {
+      "title": "Group Champion - UIU CSE Project Show '14",
+      "date": "2014-08-31",
+      "awarder": "UIU Computer Club (UIUCCL)",
+      "summary": "Project Description : Online Admission System\nDescription :\nPlatform : Android, Windows, Mac OSX, Linux\nLanguage : Java SE, MySQL\nTools & Libraries : Eclipse, Java, Apache Commons http, Jsoup"
+    },
+    {
+      "title": "Group Champion - UIU CSE Project Show '14",
+      "date": "2014-08-31",
+      "awarder": "UIU Computer Club (UIUCCL)",
+      "summary": "Project Description : UIU Student Assistant\nDescription :\nPlatform : Android\nLanguage : Java SE\nTools & Libraries : Eclipse, Java, Android SDK"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified Scrum Developer® CSD®",
+      "issuer": "Scrum Alliance",
+      "endDate": "2023-08-31",
+      "startDate": "2018-10-31",
+      "url": "https://www.scrumalliance.org/community/profile/msrabon"
+    },
+    {
+      "name": "Certified ScrumMaster® CSM®",
+      "issuer": "Scrum Alliance",
+      "endDate": "2023-08-31",
+      "startDate": "2018-10-31",
+      "url": "https://www.scrumalliance.org/community/profile/msrabon"
+    },
+    {
+      "name": "Verified International Academic Qualifications",
+      "issuer": "World Education Services",
+      "startDate": "2019-05-31",
+      "url": "https://t.cred.ly/DJd4GjMRAb5nXFDRc_Gxvg,,$$$-vSkfoZy_6c_oPIYpu8kCopIoojMMkV9K_AG1HLdyDyb09G63wXSckPwuMlR8YAKhqGYILIOjzjyp08PnREI7lJVN2jPlUckibDQy_A-8bM,?r=https%3A%2F%2Fwes.credly.com%2Fmember-badges%2F17790095&t=1556947257"
+    },
+    {
+      "name": "Advanced Certified Scrum Developer",
+      "issuer": "Scrum Alliance",
+      "endDate": "2023-08-31",
+      "startDate": "2018-10-31",
+      "url": "https://www.scrumalliance.org/community/profile/msrabon"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Nginx",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Service-Oriented Architecture (SOA)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-functional Collaborations",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ansible",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-cultural Teams",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software as a Service (SaaS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Relational Mapping (ORM)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Github",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object Oriented Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Root Cause Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maven",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-team Collaboration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Analytical Skills",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "Bangla (বাংলা)"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Jihan Emon",
+      "reference": "Md. Abu Raihan Srabon is a promising, dedicated and supportive team player. we working as a team in Synesis IT. He has deep knowledge of complex programming, problem-solving and database design.\n\nHe is always ready to take new technology challenges and finish learning that in a very short time. \n\nI wish him all the success for his future journey.  "
+    }
+  ],
+  "projects": [
+    {
+      "name": "Convay",
+      "startDate": "2021-12-31",
+      "summary": "👉 The First Video conferencing Application made in Bangladesh\n👉 Can serve 1200+ concurrent users in conferences.\n👉 Working as DevOps Engineer.\n👉 Built CI/CD pipelines using Jenkins, GitLab, and Docker for production and test environment.\n👉 Built independent microservices to add secure new features.\n👉 Wrote Automation scripts.\n👉 Deployed Multi-Cloud Environment.\n\nTool: WebRTC, XMPP server, SpringBoot, React, Spring Cloud, Redis Cluster, Docker, Apache Kafka",
+      "url": null,
+      "endDate": "2021-12-31"
+    },
+    {
+      "name": "National Equipment Identity Register (NEIR)",
+      "startDate": "2021-09-30",
+      "summary": "Bangladesh's National Equipment Identity Register project is developed with both 𝐡𝐢𝐠𝐡𝐥𝐲 𝐬𝐜𝐚𝐥𝐚𝐛𝐥𝐞 𝐚𝐧𝐝 𝐫𝐞𝐥𝐢𝐚𝐛𝐥𝐞 𝐦𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬.",
+      "url": null,
+      "endDate": "2021-11-30"
+    },
+    {
+      "name": "SMS Gateway Aggregator Platform",
+      "startDate": "2021-02-28",
+      "summary": "👉 Designed robust microservice with the capacity to handle 1000 TPS.\n👉 Combined both Bulk SMS and VAS service into the platform.\n👉 Designed to handle masking and Non-masking SMS with MNP.\n👉 Implemented customizable business strategies.\n👉 Linked to all four MNOs and International SMS providers.\n👉 Built CI/CD pipeline for staged, test, and Production deployment using Gitlab, Jenkins, and Docker.\n\nTech Used: Angular, Spring-Boot, RabbitMQ, MongoDB, MySQL, PHP, Docker, Nginx, Prometheus-Grafana, Zipkin.",
+      "url": null,
+      "endDate": "2021-08-31"
+    },
+    {
+      "name": "CST",
+      "startDate": "2020-11-30",
+      "summary": "👉 This is a dynamic telehealth CRM project that is used to serve Covid-19 suspected patients during the Covid-19 pandemic. \n👉 The question section is 𝐟𝐮𝐥𝐥𝐲 𝐝𝐲𝐧𝐚𝐦𝐢𝐜 and divided into groups based on importance. \n👉 Supervisors can 𝐚𝐝𝐝/𝐮𝐩𝐝𝐚𝐭𝐞/𝐬𝐨𝐫𝐭 questions as per need. \n👉 This CRM is used by trained doctors to consult with patients.\n👉 Daily 𝟏5𝟎𝟎0+ 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐬 were served through this CRM during that pandemic time. \n👉 Additionally, there is a 𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐥𝐞 𝐫𝐞𝐩𝐨𝐫𝐭 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 scope developed for admins and supervisors.\n\nTech Used: Angular, Amchart4, Spring-Boot, MySQL, Docker, Nginx.",
+      "url": null,
+      "endDate": "2021-03-31"
+    },
+    {
+      "name": "Covid-19 Patient Management",
+      "startDate": "2020-06-30",
+      "summary": "👉 This is a dynamic telehealth CRM project that is used to serve Covid-19 suspected patients during the Covid-19 pandemic. \n👉 The question section is 𝐟𝐮𝐥𝐥𝐲 𝐝𝐲𝐧𝐚𝐦𝐢𝐜 and divided into groups based on importance. \n👉 Supervisors can 𝐚𝐝𝐝/𝐮𝐩𝐝𝐚𝐭𝐞/𝐬𝐨𝐫𝐭 questions as per need. \n👉 This CRM is used by trained doctors to consult with patients.\n👉 Daily 𝟏5𝟎𝟎0+ 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐬 were served through this CRM during that pandemic time. \n👉 Additionally, there is a 𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐥𝐞 𝐫𝐞𝐩𝐨𝐫𝐭 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 scope developed for admins and supervisors.\n\nTech Used: Angular, Amchart4, Spring-Boot, MySQL, Docker, Nginx.",
+      "url": null,
+      "endDate": "2021-02-28"
+    },
+    {
+      "name": "Brac Moner-Jotno",
+      "startDate": "2020-07-31",
+      "summary": "👉 This is a dynamic telehealth CRM project that is used to serve Mental Health services during the Covid-19 pandemic. \n👉 The question section is 𝐟𝐮𝐥𝐥𝐲 𝐝𝐲𝐧𝐚𝐦𝐢𝐜 and divided into groups based on importance. \n👉 Supervisors can 𝐚𝐝𝐝/𝐮𝐩𝐝𝐚𝐭𝐞/𝐬𝐨𝐫𝐭 questions as per need. \n👉 This CRM is used by trained doctors to consult with patients.\n👉 Daily 𝟏𝟎𝟎𝟎+ 𝐩𝐚𝐭𝐢𝐞𝐧𝐭𝐬 were served through this CRM during that pandemic time. \n👉 Additionally, there is a 𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐥𝐞 𝐫𝐞𝐩𝐨𝐫𝐭 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 scope developed for admins and supervisors.\n\nTech Used: Angular, Amchart4, Spring-Boot, MySQL, Docker, Nginx.",
+      "url": null,
+      "endDate": "2021-01-31"
+    },
+    {
+      "name": "Contact Center",
+      "startDate": "2019-04-30",
+      "summary": "👉🏻 Transformed legacy contact center product to micro-service architecture resulting in a 1900% increase in concurrent call handle capacity and a 99.99% uptime.\n👉🏻 Built real-time dashboard using event-driven message queuing, asynchronous processing, and WebSocket.\n👉🏻 Built CI/CD pipeline for staged and test deployment using Gitlab, Jenkins, and Docker.\n👉🏻 Designed and integrated User and Call analysis reports.\n👉🏻 Designed and Implemented a dynamic Dial-plan with IVR integration.\n👉🏻 Implemented Agent Workstation Monitoring.\n\nTech Used: Asterisk 16, Angular, Spring-Boot, RabbitMQ, Websocket, MySQL NDBCluster, Docker, Nginx, Grafana, Prometheus, Bash.",
+      "url": null,
+      "endDate": "2020-10-31"
+    },
+    {
+      "name": "16263-Shastho Batayon Data Analysis Web App",
+      "startDate": "2018-03-31",
+      "summary": "👉\tDesigned highly efficient SQL queries with multiple searchable criteria (incl. date range, age, location, gender, etc.).\n👉\tDesigned interactive and responsive charts to represent insights.\n👉\tBuilt Responsive Material UI Frontend.\n👉\tDesigned and built robust and secure Rest APIs for Frontend.\n👉\tIntegrated with Legacy Systems for User management.\n\nTech Used: VueJS, Laravel, MySQL",
+      "url": null,
+      "endDate": "2018-07-31"
+    },
+    {
+      "name": "Smart Inventory Manager (Android Application)",
+      "startDate": "2017-05-31",
+      "summary": "Description: To help small and Medium sized enterprises manage their product Import/Export and Sales transactions in one place.\nLanguage & Tools: Java, Android Studio, Android SDK, SQLite, Sugar ORM.\n",
+      "url": "https://github.com/ARSrabon/SmartInventoryManager",
+      "endDate": "2017-08-31"
+    },
+    {
+      "name": "Let’s Chat Now (Desktop Application [Both Client and Server side])",
+      "startDate": "2017-04-30",
+      "summary": "Description: Chat with any user in your home/Local network.\nLanguage & Tools: Java.\n",
+      "url": "https://github.com/ARSrabon/LetsChatNow",
+      "endDate": "2017-05-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

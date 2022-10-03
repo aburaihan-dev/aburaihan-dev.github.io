@@ -1,0 +1,216 @@
+{
+  "basics": {
+    "name": "Md. Abu Raihan Srabon",
+    "label": "Software Engineer",
+    "picture": "images/aburaihansrabon.jpg",
+    "x_pictureFallback": "images/aburaihansrabon.jpg",
+    "x_title": "Hey There! Glad you're here",
+    "summary": "Going on 5 years of experience in Software engineering. I'm currently working as a cloud engineer exploring the AWS world. I’m interested in building distributed, cloud native applications, service management, monitoring and site reliability engineering.",
+    "location": {
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "region": "Dhaka"
+    },
+    "profiles": [
+      {
+        "network": "DEV Community",
+        "username": "msrabon",
+        "url": "https://dev.to/msrabon",
+        "x_icon": "fab fa-2x fa-dev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mdaburaihan",
+        "url": "https://www.linkedin.com/in/mdaburaihan",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "aburaihan-dev",
+        "url": "https://github.com/aburaihan-dev",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "feedzai",
+      "position": "Software Engineer",
+      "website": "https://feedzai.com",
+      "startDate": "2021-04-26",
+      "endDate": "",
+      "summary": "The first startup in my professional path, feedzai - a Unicorn 🦄 - fighting financial crime and fraude",
+      "highlights": []
+    },
+    {
+      "company": "Self-employed",
+      "position": "Software development consultant",
+      "website": "https://jcoelho93.netlify.com",
+      "startDate": "2021-01-15",
+      "endDate": "",
+      "summary": "Started working for myself, providing expertise on software development and DevOps culture and best practices for international startups.",
+      "highlights": []
+    },
+    {
+      "company": "Bosch",
+      "position": "DevOps Engineer for automated driving",
+      "website": "https://www.bosch.hu",
+      "startDate": "2019-10-15",
+      "endDate": "2020-10-10",
+      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+      "highlights": []
+    },
+    {
+      "company": "Asseco PST",
+      "position": "DevOps Engineer",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2018-04-01",
+      "endDate": "2019-08-30",
+      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+      "highlights": []
+    },
+    {
+      "company": "Asseco PST",
+      "position": "Backend Developer",
+      "website": "https://www.pst.asseco.com",
+      "startDate": "2017-08-16",
+      "endDate": "",
+      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+      "highlights": []
+    },
+    {
+      "company": "European GNSS Agency",
+      "position": "IT Support Technician",
+      "website": "https://www.gsa.europea.eu",
+      "startDate": "2016-05-01",
+      "endDate": "",
+      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
+      "highlights": []
+    },
+    {
+      "company": "Empresa de Electricidade da Madeira",
+      "position": "IT Support Technician",
+      "website": "https://www.eem.pt",
+      "startDate": "2015-03-01",
+      "endDate": "",
+      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "United International University",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2012-08-28",
+      "endDate": "2017-09-18",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    },
+    {
+      "institution": "University of Madeira",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011-09-15",
+      "endDate": "2019-06-07",
+      "courses": [
+        "Object Oriented Programming",
+        "Database Management Systems",
+        "Operating systems and computers architectures",
+        "Requirements Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AWS",
+      "x_icon": "fa-brands fa-aws",
+      "x_description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+    },
+    {
+      "name": "Infrastructure as Code",
+      "x_icon": "fa-code",
+      "x_description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+    },
+    {
+      "name": "Configuration Management",
+      "x_icon": "fa-gears",
+      "x_description": "Launching, configuring and maintaining cloud environments with Ansible"
+    },
+    {
+      "name": "CI/CD",
+      "x_icon": "fa-infinity",
+      "x_description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+    },
+    {
+      "name": "Python",
+      "x_icon": "fa-brands fa-python",
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+    },
+    {
+      "name": "Monitoring",
+      "x_icon": "fa-chart-line",
+      "x_description": "Implementing centralized monitoring solution for cloud environments with Telegraf, InfluxDB and Grafana"
+    },
+    {
+      "name": "Serverless",
+      "x_icon": "fa-bolt",
+      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+    },
+    {
+      "name": "Containers",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Delivering and distributing applications and tools with Docker, docker-compose and kubernetes"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect Associate",
+      "issuer": "Amazon Web Services Training and Certification",
+      "url": "https://www.credly.com/badges/263d35c5-83db-4f93-97a4-a84ee806da90/public_url",
+      "x_badgeId": "263d35c5-83db-4f93-97a4-a84ee806da90",
+      "x_imageId": "0e284c3f-5164-4b21-8660-0d84737941bc",
+      "x_imageName": "image.png"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "issuer": "The Linux Foundation",
+      "url": "https://www.credly.com/badges/3b4c4056-b736-4a9b-bcad-5a8457ef72e1/public_url",
+      "x_badgeId": "3b4c4056-b736-4a9b-bcad-5a8457ef72e1",
+      "x_imageId": "f88d800c-5261-45c6-9515-0458e31c3e16",
+      "x_imageName": "ckad_from_cncfsite.png"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel bug",
+      "x_icon": "fa-globe-africa"
+    },
+    {
+      "name": "Dog lover",
+      "x_icon": "fa-dog"
+    },
+    {
+      "name": "Foodie",
+      "x_icon": "fa-utensils"
+    },
+    {
+      "name": "Live in the now",
+      "x_icon": "fa-brain"
+    }
+  ]
+}
