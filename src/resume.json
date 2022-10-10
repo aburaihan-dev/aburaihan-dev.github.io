@@ -209,6 +209,10 @@
     }],
     "interests": [
         {
+        "name": "Tech-Lover",
+        "x_icon": "images/data-management_16x16.png"
+        },
+        {
         "name": "Foodie",
         "x_icon": "fa-utensils"
         },
@@ -218,11 +222,11 @@
         },
         {
             "name": "Gaming",
-            "x_icon": "fa-gamepad-modern"
+            "x_icon": "images/game_16x16.png"
         },
         {
-            "name": "Vr-Gaming",
-            "x_icon": "fa-vr-cardboard"
+            "name": "Photography",
+            "x_icon": "images/camera_16x16.png"
         },
         {
             "name": "Travel bug",

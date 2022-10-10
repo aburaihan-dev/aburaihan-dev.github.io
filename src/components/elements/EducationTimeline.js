@@ -1,5 +1,6 @@
 import React from "react"
 import EducationTimelineItem from "./EducationTimelineItem"
+import EducationTimelineHeader from "./EducationTimelineHeader"
 import Resume from "../../resume.json"
 
 function EducationTimeline() {
@@ -13,23 +14,31 @@ function EducationTimeline() {
                 <div className="timeline-content"></div>
             </div>
             {
-                Resume.education.map((item) => {return new Date(item.startDate).getFullYear()}).map((year, index) => {
+                Resume.education.map((item) => {
+                    return new Date(item.startDate).getFullYear()
+                })
+                .map((year, i) => {
                     let content = []
-                    content.push(<header key={index} className="timeline-header">
-                                    <span className="tag is-success">{year}</span>
-                                   </header>)
-                    content.push(Resume.education.filter(education => new Date(education.startDate).getFullYear() === year).map((item, index) => {
-                            return <EducationTimelineItem
-                                        key = {index}
+                    content.push(
+                        <EducationTimelineHeader key={i} year={year}/>
+                      );
+                    content.push(
+                        Resume.education
+                        .filter(education => new Date(education.startDate).getFullYear() === year)
+                        .map((item, j) => {
+                            return (
+                                <EducationTimelineItem
+                                        key = {j}
                                         startDate = {new Date(item.startDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
-                                        endDate = {new Date(item.endDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
+                                        endDate = {item.endDate === "" ? "Present" : new Date(item.endDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
                                         institution = {item.institution}
                                         area = {item.area}
                                         image =  {item.image}                                                      
                                         studyType = {item.studyType}
                                         courses = {item.courses}
                                     />
-                        }))
+                            );
+                        }));
                     return content
                 })
             }
