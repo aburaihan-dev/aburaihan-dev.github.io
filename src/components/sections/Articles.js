@@ -7,10 +7,10 @@ class Articles extends Component {
     this.state = { articles: [] };
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     const devTo = "https://dev.to/api/articles?username=msrabon";
 
-    fetch(devTo)
+    await fetch(devTo)
       .then(response => {
         return response.json();
       })
@@ -34,7 +34,8 @@ class Articles extends Component {
         for (var i = 0; i < offset; i++) {
           articles.push(<div className="column"></div>);
         }
-        this.setState({ articles: articles });
+        this.state.articles = articles
+        // this.setState({ articles: articles });
       });
   }
 

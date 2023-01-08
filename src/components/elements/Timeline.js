@@ -15,10 +15,10 @@ function Timeline() {
         <div className="timeline-marker is-success"></div>
         <div className="timeline-content"></div>
       </div>
-      {Resume.work
-        .map(item => {
+      {Resume.work.map(item => {
           return new Date(item.startDate).getFullYear();
-        }).filter((value, index, self) => self.indexOf(value) === index)
+        })
+        .filter((value, index, self) => self.indexOf(value) === index)
         .map((year, i) => {
           let content = [];
           content.push(
@@ -42,6 +42,7 @@ function Timeline() {
                     position={item.position}
                     company={item.company}
                     summary={item.summary}
+                    highlights={item.highlights}
                   />
                 );
               })

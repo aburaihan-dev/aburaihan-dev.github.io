@@ -40,7 +40,12 @@
             "position": "Senior Programmer",
             "startDate": "2021-01-31",
             "endDate": "",
-            "highlights": [],
+            "highlights": [
+              "Contribute in solutions architecture and design decision.",
+              "Managing cross-functional team of 3+ Software engineers and SQA's to develop product features.",
+              "Improved teamwork by implementing Agile Methodologies, tracking team velocity, and focusing towards improvements.",
+              "Establish coding standards, uphold established standards, and guarantee the caliber of deliverables and documentation."
+            ],
             "summary": "",
             "url": "https://www.linkedin.com/company/657942",
             "location": "Dhaka, Bangladesh"
@@ -209,6 +214,10 @@
     }],
     "interests": [
         {
+        "name": "Tech-Lover",
+        "x_icon": "images/data-management_16x16.png"
+        },
+        {
         "name": "Foodie",
         "x_icon": "fa-utensils"
         },
@@ -218,11 +227,11 @@
         },
         {
             "name": "Gaming",
-            "x_icon": "fa-gamepad-modern"
+            "x_icon": "images/game_16x16.png"
         },
         {
-            "name": "Vr-Gaming",
-            "x_icon": "fa-vr-cardboard"
+            "name": "Photography",
+            "x_icon": "images/camera_16x16.png"
         },
         {
             "name": "Travel bug",

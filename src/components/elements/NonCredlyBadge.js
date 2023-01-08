@@ -7,7 +7,9 @@ function CredlyBadge(props) {
   return (
     <figure className="is-inline-block image">
       <a href={imgLink} target="_blank" rel="noopener noreferrer">
-        <img src={imgSrc} alt={props.badgeName} height={props.height} />
+        <figure class="image is-128x128">
+          <img  src={imgSrc} alt={props.badgeName} height={props.height} title={props.name} />
+        </figure>
       </a>
     </figure>
   );

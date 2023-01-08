@@ -10,6 +10,7 @@ html {
 }
 .has-bg-image {
     background-image: url('../images/image-2.webp'), url('../images/image-2.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
