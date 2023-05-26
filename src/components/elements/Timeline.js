@@ -31,11 +31,11 @@ function Timeline() {
                 return (
                   <TimelineItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
+                    date={new Date(item.startDate).toLocaleString("en-US", {
                       month: "long",
                       year: "numeric"
                     })}
-                    endDate={item.endDate === "" ? "Present" : new Date(item.endDate).toLocaleString("en-UK", {
+                    endDate={item.endDate === "" ? "Present" : new Date(item.endDate).toLocaleString("en-US", {
                       month: "long",
                       year: "numeric"
                     })}

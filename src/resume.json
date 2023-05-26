@@ -6,7 +6,7 @@
       "email": "mdaburaihansrabon@gmail.com",
       "phone": "+8801827073009",
       "url": "https://aburaihan-dev.github.io",
-      "summary": "Going on 5+ years of experience in Software engineering. I'm currently working as a Software/DevOps Engineer. I’m interested in building distributed, cloud native applications, service management, monitoring and site reliability engineering.",
+      "summary": "Experienced senior programmer with 5+ years of software engineering expertise, specializing in project management, system architecture, and team leadership. Currently leading the DevOps team, driving successful transformation initiatives. Proven track record in delivering complex projects, including the Covid-19 initiative and the SMS Platform integration project. Proficient in Java, Spring- Boot, Angular, Docker, Jenkins, and Agile practices. Certified Scrum Developer and Scrum Master, skilled in optimizing ETL processes and improving application performance. Effective communicator and motivator, fostering collaboration within cross-functional teams. Committed to continuous learning and staying abreast of emerging technologies. Ready to contribute to the success of future software development endeavors.",
       "location": {
         "city": "Dhaka",
         "country": "Bangladesh",
@@ -36,14 +36,19 @@
     },
     "work": [
         {
-            "company": "Synesis IT",
+            "company": "Synesis IT PLC",
             "position": "Senior Programmer",
             "startDate": "2021-01-31",
             "endDate": "",
             "highlights": [
               "Contribute in solutions architecture and design decision.",
+              "Automated common processes with scripts in Bash and Python",
+              "Designed and implemented microservice to integrate new features like geo-aware personalized meeting ID generator",
+              "Designed and developed a resilient SaaS solution with microservice architecture, capable of processing up to 100 TPS",
+              "Implemented agile and adaptable business strategies for seamless integration of new business logic and strategies",
               "Managing cross-functional team of 3+ Software engineers and SQA's to develop product features.",
               "Improved teamwork by implementing Agile Methodologies, tracking team velocity, and focusing towards improvements.",
+              "Implemented a Gitlab webhook, Jenkins, and Docker-based CI/CD pipeline for staged and test environment deployment",
               "Establish coding standards, uphold established standards, and guarantee the caliber of deliverables and documentation."
             ],
             "summary": "",
@@ -51,11 +56,17 @@
             "location": "Dhaka, Bangladesh"
           },
           {
-            "company": "Synesis IT",
+            "company": "Synesis IT PLC",
             "position": "Programmer",
             "startDate": "2017-09-30",
             "endDate": "2021-01-31",
-            "highlights": [],
+            "highlights": [
+              "Transformed legacy contact center product to micro-service architecture resulting in a 1900% increase in concurrent call handle capacity and a 99.99% uptime",
+              "Developed a dynamic real-time dashboard utilizing event-driven message queuing, asynchronous processing, and WebSocket technology",
+              "Designed and implemented dynamic questionnaire feature with questionnaire grouping into the CMS",
+              "Designed and implemented security and business rules",
+              "Optimized SQL queries for fetching data and analytics."
+            ],
             "summary": "",
             "url": "https://www.linkedin.com/company/657942",
             "location": "Bangladesh"
@@ -73,50 +84,66 @@
         }
     ],
     "education": [
+      {
+        "institution": " BASIS-SEIP Tranche-3, BASIS",
+        "area": "Software Design & Architecture",
+        "studyType": "Certification",
+        "startDate": "09/22/2022",
+        "endDate": "11/22/2022",
+        "score": "",
+        "courses": [
+            "Analyze Requirements and Specification",
+            "Prepare Software Documets: SRS, SDD",
+            "Data Modeling and Process Design",
+            "Implement Software Design Principles and Patterns",
+            "Develop Software Architecture",
+            "Work with Programming Language"
+        ]
+      },
+      {
+          "institution": "United International University",
+          "area": "Data Science",
+          "studyType": "Master of Science - MS",
+          "startDate": "2020-01-31",
+          "endDate": "2022-02-28",
+          "score": "",
+          "courses": [
+              "CSE 6011 - Data Mining",
+              "CSE 6207 - Data Analytics",
+              "CSE 6211 - Deep Learning",
+              "CSE 6131 - Computational Intelligence",
+              "CSE 6115 - Financial Informatics",
+              "CSE 6127 - Networks Security",
+              "CSE 6177 - Ethical Hacking"
+          ]
+        },
         {
-            "institution": "United International University",
-            "area": "Data Science",
-            "studyType": "Master of Science - MS",
-            "startDate": "2020-01-31",
-            "endDate": "2022-02-28",
-            "score": "",
-            "courses": [
-                "CSE 6011 - Data Mining",
-                "CSE 6207 - Data Analytics",
-                "CSE 6211 - Deep Learning",
-                "CSE 6131 - Computational Intelligence",
-                "CSE 6115 - Financial Informatics",
-                "CSE 6127 - Networks Security",
-                "CSE 6177 - Ethical Hacking"
-            ]
-          },
-          {
-            "institution": "United International University",
-            "area": "Computer Science And Engineering",
-            "studyType": "Bachelor of Science (B.Sc.)",
-            "startDate": "2012-12-31",
-            "endDate": "2017-9-30",
-            "score": "",
-            "courses": [
-                "CSE 465 - Web Programming",
-                "CSE 471 - Advanced Object Oriented Programming",
-                "CSE 481 - Mobile Application Development",
-                "CSI 311 - System Analysis and Design",
-                "CSI 321 - Software Engineering",
-                "CSI 341 - Artificial Intelligence"
-            ]
-          },
-          {
-            "institution": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
-            "area": "Java SE 7",
-            "studyType": "Oracle University Certified Java SE 7 Programmer",
-            "startDate": "2016-08-1",
-            "endDate": "2016-12-31",
-            "score": "",
-            "courses": [
-                "Oracle Java SE 7"
-            ]
-          }
+          "institution": "United International University",
+          "area": "Computer Science And Engineering",
+          "studyType": "Bachelor of Science (B.Sc.)",
+          "startDate": "2012-12-31",
+          "endDate": "2017-9-30",
+          "score": "",
+          "courses": [
+              "CSE 465 - Web Programming",
+              "CSE 471 - Advanced Object Oriented Programming",
+              "CSE 481 - Mobile Application Development",
+              "CSI 311 - System Analysis and Design",
+              "CSI 321 - Software Engineering",
+              "CSI 341 - Artificial Intelligence"
+          ]
+        },
+        {
+          "institution": "IBCS-PRIMAX Software (Bangladesh) Ltd.",
+          "area": "Java SE 7",
+          "studyType": "Oracle University Certified Java SE 7 Programmer",
+          "startDate": "2016-08-1",
+          "endDate": "2016-12-31",
+          "score": "",
+          "courses": [
+              "Oracle Java SE 7"
+          ]
+        }
     ],
     "awards": [
         {
