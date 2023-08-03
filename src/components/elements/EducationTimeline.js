@@ -32,6 +32,8 @@ function EducationTimeline() {
                                         startDate = {new Date(item.startDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
                                         endDate = {item.endDate === "" ? "Present" : new Date(item.endDate).toLocaleString('en-UK', {month:'long', year: 'numeric'})}
                                         institution = {item.institution}
+                                        logo={item.logo}
+                                        icon={item.icon}
                                         area = {item.area}
                                         image =  {item.image}                                                      
                                         studyType = {item.studyType}
