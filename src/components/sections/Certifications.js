@@ -8,9 +8,12 @@ function buildBadges(certificates){
     let columnSize = 12 / certificates.length;
     let columnClass = "column has-text-centered is-" + columnSize;
     certificates.forEach((cert, index) => {
-        if(!cert.url.includes("www.credly.com")){
+        let credlyUrl = 'www.credly.com';
+        let hint = index;
+
+        if(!cert.url.includes(credlyUrl)){
             credlyBadges.push(
-                <div key={index} className={columnClass}>
+                <div key={hint} className={columnClass}>
                     <NonCredlyBadge
                         width="120"
                         height="120"
@@ -25,7 +28,7 @@ function buildBadges(certificates){
             )
         }else{
             credlyBadges.push(
-                <div key={index} className={columnClass}>
+                <div key={hint} className={columnClass}>
                     <CredlyBadge
                         width="186"
                         height="186"
