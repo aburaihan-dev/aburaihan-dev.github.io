@@ -41,6 +41,8 @@ function Timeline() {
                     })}
                     position={item.position}
                     company={item.company}
+                    logo={item.logo}
+                    icon={item.icon}
                     summary={item.summary}
                     highlights={item.highlights}
                   />
