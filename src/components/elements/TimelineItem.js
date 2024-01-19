@@ -12,7 +12,7 @@ function TimelineItem(props) {
         <h3 className="title is-6">{props.position}</h3>
         <p style={{ maxWidth: "25em" }}>{props.summary}</p>
         <div className="content">
-        <ul style={{maxWidth: '40em','text-align': 'initial'}}>
+        <ul style={{maxWidth: '40em','textAlign': 'initial'}}>
           {
           props.highlights
           .map((item,index)=> {

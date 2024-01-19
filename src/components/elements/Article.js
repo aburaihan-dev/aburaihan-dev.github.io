@@ -1,6 +1,7 @@
 import React from "react";
 
 function Article(props) {
+  console.log(props);
   return (
     <div className="card article">
       <div className="card-header">

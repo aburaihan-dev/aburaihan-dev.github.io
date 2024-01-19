@@ -17,6 +17,7 @@ class Articles extends Component {
       .then(data => {
         let articles = [];
         data = data.slice(0, 4);
+        
         data.forEach((element, index) => {
           articles.push(
             <div className="column" key={index}>
@@ -31,11 +32,13 @@ class Articles extends Component {
           );
         });
         var offset = 4 - data.length;
+
         for (var i = 0; i < offset; i++) {
           articles.push(<div className="column"></div>);
         }
+        
         this.state.articles = articles
-        // this.setState({ articles: articles });
+        this.setState({ articles: articles });
       });
   }
 
