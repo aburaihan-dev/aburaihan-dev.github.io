@@ -1,58 +1,52 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import Article from "../elements/Article";
 
-class Articles extends Component {
-  constructor(props) {
-    super();
-    this.state = { articles: [] };
-  }
+const Articles = () => {
+  const [articles, setArticles] = useState([]);
 
-  async componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=msrabon";
-
-    await fetch(devTo)
-      .then(response => {
-        return response.json();
-      })
-      .then(data => {
-        let articles = [];
-        data = data.slice(0, 4);
+  useEffect(() => {
+    const fetchArticles = async () => {
+      const devTo = "https://dev.to/api/articles?username=msrabon";
+      
+      try {
+        const response = await fetch(devTo);
+        const data = await response.json();
+        const slicedData = data.slice(0, 4);
         
-        data.forEach((element, index) => {
-          articles.push(
-            <div className="column" key={index}>
-              <Article
-                key={index}
-                title={element.title}
-                url={element.url}
-                image={element.cover_image}
-                extract={element.description}
-              />
-            </div>
-          );
-        });
-        var offset = 4 - data.length;
+        const articleElements = slicedData.map((element, index) => (
+          <div className="column" key={element.id || index}>
+            <Article
+              title={element.title}
+              url={element.url}
+              image={element.cover_image}
+              extract={element.description}
+            />
+          </div>
+        ));
 
-        for (var i = 0; i < offset; i++) {
-          articles.push(<div className="column"></div>);
-        }
-        
-        this.state.articles = articles
-        this.setState({ articles: articles });
-      });
-  }
+        // Fill remaining columns if less than 4 articles
+        const remainingColumns = Array(4 - slicedData.length).fill().map((_, index) => (
+          <div className="column" key={`empty-${index}`}></div>
+        ));
 
-  render() {
-    return (
-      <section className="section" id="articles">
-        <div className="container">
-          <h1 className="title">Articles</h1>
-          <h2 className="subtitle is-4">My latest articles</h2>
-          <div className="columns">{this.state.articles}</div>
-        </div>
-      </section>
-    );
-  }
-}
+        setArticles([...articleElements, ...remainingColumns]);
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+      }
+    };
+
+    fetchArticles();
+  }, []);
+
+  return (
+    <section className="section" id="articles">
+      <div className="container">
+        <h1 className="title">Articles</h1>
+        <h2 className="subtitle is-4">My latest articles</h2>
+        <div className="columns">{articles}</div>
+      </div>
+    </section>
+  );
+};
 
 export default Articles;

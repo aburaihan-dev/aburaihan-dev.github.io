@@ -1,11 +1,9 @@
 import React from "react";
 
-function EducationTimelineHeader(props) {
-  return (
-    <header className="timeline-header">
-        <span className="tag is-success">{props.year}</span>
-    </header>
-  );
-}
+const EducationTimelineHeader = ({ year }) => (
+  <header className="timeline-header">
+    <span className="tag is-success">{year}</span>
+  </header>
+);
 
 export default EducationTimelineHeader;

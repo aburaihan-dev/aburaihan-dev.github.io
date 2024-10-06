@@ -19,7 +19,7 @@
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b mysite-0.0.2 -d build"
+    "deploy": "gh-pages -b mysite-0.0.3 -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

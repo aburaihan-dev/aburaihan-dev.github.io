@@ -1,55 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuItem from "./MenuItem";
 import Resume from "../../resume.json";
 
-class NavBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { showMenu: false };
-    this.handleMenuClick = this.handleMenuClick.bind(this);
-  }
+const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
 
-  handleMenuClick(e) {
-    const currentState = this.state.showMenu;
-    this.setState({ showMenu: !currentState });
-  }
+  const handleMenuClick = () => {
+    setShowMenu(!showMenu);
+  };
 
-  render() {
-    return (
-      <nav className="navbar is-transparent">
-        <div className="container">
-          <div className="navbar-brand">
-            <a href="/" className="navbar-item title is-unselectable my-name">
-              {Resume.basics.name}
-            </a>
-            <span
-              className="navbar-burger burger"
-              onClick={this.handleMenuClick}
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div
-            className={
-              "navbar-menu nav-menu " +
-              (this.state.showMenu ? "is-active" : null)
-            }
+  const menuItems = [
+    { text: "About Me", href: "#aboutMe" },
+    { text: "Skills", href: "#skills" },
+    { text: "Certifications", href: "#certifications" },
+    { text: "Experience", href: "#experience" },
+    { text: "Education & Training", href: "#education" },
+    { text: "Articles", href: "#articles" },
+  ];
+
+  return (
+    <nav className="navbar is-transparent">
+      <div className="container">
+        <div className="navbar-brand">
+          <a href="/" className="navbar-item title is-unselectable my-name">
+            {Resume.basics.name}
+          </a>
+          <span
+            className="navbar-burger burger"
+            onClick={handleMenuClick}
+            aria-label="menu"
+            aria-expanded={showMenu}
           >
-            <div className="navbar-end" onClick={this.handleMenuClick}>
-              <MenuItem text="About Me" href="#aboutMe" />
-              <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Certifications" href="#certifications" />
-              <MenuItem text="Experience" href="#experience" />
-              <MenuItem text="Education & Training" href="#education" />
-              <MenuItem text="Articles" href="#articles" />
-            </div>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </span>
+        </div>
+        <div className={`navbar-menu nav-menu ${showMenu ? "is-active" : ""}`}>
+          <div className="navbar-end" onClick={handleMenuClick}>
+            {menuItems.map((item) => (
+              <MenuItem key={item.href} text={item.text} href={item.href} />
+            ))}
           </div>
         </div>
-      </nav>
-    );
-  }
-}
+      </div>
+    </nav>
+  );
+};
 
 export default NavBar;
