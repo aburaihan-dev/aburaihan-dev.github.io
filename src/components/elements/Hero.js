@@ -1,13 +1,41 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "./NavBar";
 import Resume from "../../resume.json";
 
 const Hero = () => {
   const { basics } = Resume;
   const { label, location, profiles } = basics;
+  const [backgroundImage, setBackgroundImage] = useState('/images/image-2.webp');
+
+  useEffect(() => {
+    const preloadImages = () => {
+      const imageUrls = [
+        '/images/image-2.webp',
+        '/images/image-1.jpg'
+      ];
+      imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+        img.onload = () => {
+          if (url === '/images/image-2.webp') {
+            setBackgroundImage(url);
+          }
+        };
+      });
+    };
+    preloadImages();
+  }, []);
 
   return (
-    <section className="hero is-dark is-fullheight has-bg-image">
+    <section 
+      className="hero is-dark is-fullheight"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <div className="hero-head">
         <NavBar />
       </div>
