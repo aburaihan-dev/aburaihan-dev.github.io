@@ -6,7 +6,7 @@
       "email": "mdaburaihansrabon@gmail.com",
       "phone": "+8801827073009",
       "url": "https://aburaihan-dev.github.io",
-      "summary": "Experienced DevOps Engineer with over seven years in software engineering and team leadership. Specializing in DevOps transformations, system architecture, and automation using technologies like Docker, Jenkins, Java, and Spring Boot. Certified Scrum Master and Developer with a proven track record in optimizing processes and driving innovative solutions. Passionate about continuous learning and open to new opportunities.",
+      "summary": "Experienced senior programmer with 5+ years of software engineering expertise, specializing in project management, system architecture, and team leadership. Currently leading the DevOps team, driving successful transformation initiatives. Proven track record in delivering complex projects, including the Covid-19 initiative and the SMS Platform integration project. Proficient in Java, Spring- Boot, Angular, Docker, Jenkins, and Agile practices. Certified Scrum Developer and Scrum Master, skilled in optimizing ETL processes and improving application performance. Effective communicator and motivator, fostering collaboration within cross-functional teams. Committed to continuous learning and staying abreast of emerging technologies. Ready to contribute to the success of future software development endeavors.",
       "location": {
         "city": "Dhaka",
         "country": "Bangladesh",
@@ -154,30 +154,30 @@
         }
     ],
     "certificates": [
-      {
-        "name": "Certified ScrumMaster® CSM®",
-        "issuer": "Scrum Alliance",
-        "endDate": "2026-12-02",
-        "startDate": "2018-10-31",
-        "url": "https://www.scrumalliance.org/community/profile/msrabon",
-        "x_imageName": "sa-csm-600.png"
-        },
         {
             "name": "Certified Scrum Developer® CSD®",
             "issuer": "Scrum Alliance",
-            "endDate": "2026-12-02",
+            "endDate": "2023-08-31",
             "startDate": "2018-10-31",
             "url": "https://www.scrumalliance.org/community/profile/msrabon",
-            "x_imageName": "sa-csd-600.png"
+            "x_imageName": "seal-csd.png"
 
         },
         {
         "name": "Advanced Certified Scrum Developer",
         "issuer": "Scrum Alliance",
-        "endDate": "2026-12-02",
+        "endDate": "2023-08-31",
         "startDate": "2018-10-31",
         "url": "https://www.scrumalliance.org/community/profile/msrabon",
-        "x_imageName": "sa-adv_csd-600.png"
+        "x_imageName": "seal-advcsd.png"
+        },
+        {
+        "name": "Certified ScrumMaster® CSM®",
+        "issuer": "Scrum Alliance",
+        "endDate": "2023-08-31",
+        "startDate": "2018-10-31",
+        "url": "https://www.scrumalliance.org/community/profile/msrabon",
+        "x_imageName": "seal-csm.png"
         },
         {
         "name": "Verified International Academic Qualifications",
