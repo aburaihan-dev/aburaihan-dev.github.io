@@ -28,6 +28,7 @@ function Timeline() {
               endDate={item.endDate ? formatDate(item.endDate) : "Present"}
               position={item.position}
               company={item.company}
+              logo={item.logo}
               summary={item.summary}
               highlights={item.highlights}
             />

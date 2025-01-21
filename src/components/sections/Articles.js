@@ -6,7 +6,7 @@ const Articles = () => {
 
   useEffect(() => {
     const fetchArticles = async () => {
-      const devTo = "https://dev.to/api/articles?username=msrabon";
+      const devTo = "https://dev.to/api/articles?username=msrabon&page=1&per_page=5";
       
       try {
         const response = await fetch(devTo);

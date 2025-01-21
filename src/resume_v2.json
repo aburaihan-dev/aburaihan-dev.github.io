@@ -35,30 +35,11 @@
       ]
     },
     "work": [
-      {
-        "company": "Development Design Consultants Ltd.",
-        "logo": "images/ddcl.png",
-        "position": "DevOps Specialist",
-        "startDate": "2024-03-03",
-        "endDate": "",
-        "highlights": [
-          "Spearheaded DevOps transformation, enhancing efficiency and collaboration.",
-          "Architected an ERP solution using microservices, no-code, and low-code technologies for faster development.",
-          "Led development teams on client projects, ensuring high-quality deliverables and successful outcomes.",
-          "Deployed client applications on Kubernetes clusters across UAT, staging, and production environments.",
-          "Implemented code synchronization between remote repositories using CI/CD pipelines.",
-          "Established GitOps for automation and alerts."
-        ],
-        "summary": "",
-        "url": "https://www.linkedin.com/company/657942",
-        "location": "Dhaka, Bangladesh"
-      },
         {
             "company": "Synesis IT PLC",
-            "logo": "images/synesisit.png",
             "position": "Senior Programmer",
             "startDate": "2021-01-31",
-            "endDate": "2024-02-29",
+            "endDate": "",
             "highlights": [
               "Contribute in solutions architecture and design decision.",
               "Automated common processes with scripts in Bash and Python",
@@ -76,7 +57,6 @@
           },
           {
             "company": "Synesis IT PLC",
-            "logo": "images/synesisit.png",
             "position": "Programmer",
             "startDate": "2017-09-30",
             "endDate": "2021-01-31",
