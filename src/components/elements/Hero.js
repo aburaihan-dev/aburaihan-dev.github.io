@@ -11,7 +11,7 @@ const Hero = () => {
     const preloadImages = () => {
       const imageUrls = [
         '/images/image-2.webp',
-        '/images/image-1.jpg'
+        '/images/image-1.webp'
       ];
       imageUrls.forEach(url => {
         const img = new Image();
