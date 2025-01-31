@@ -12,6 +12,7 @@ const NavBar = () => {
   const menuItems = [
     { text: "About Me", href: "#aboutMe" },
     { text: "Skills", href: "#skills" },
+    { text: "Blog", href: "https://blog.mdaburaihan.pro/" },
     { text: "Certifications", href: "#certifications" },
     { text: "Experience", href: "#experience" },
     { text: "Education & Training", href: "#education" },
