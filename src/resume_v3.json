@@ -175,46 +175,37 @@
     ],
     "certificates": [
       {
-        "name": "Advanced Certified ScrumMaster® A-CSM®",
-        "issuer": "Scrum Alliance",
-        "endDate": "2027-04-30",
-        "startDate": "205-05-02",
-        "url": "https://www.scrumalliance.org/community/profile/msrabon",
-        "x_imageName": "sa-adv_csm-600.png"
-      },
-      {
-        "name": "Advanced Certified Scrum Developer",
-        "issuer": "Scrum Alliance",
-        "endDate": "2027-04-30",
-        "startDate": "2018-10-31",
-        "url": "https://www.scrumalliance.org/community/profile/msrabon",
-        "x_imageName": "sa-adv_csd-600.png"
-      },
-      {
         "name": "Certified ScrumMaster® CSM®",
         "issuer": "Scrum Alliance",
-        "endDate": "2027-04-30",
+        "endDate": "2026-12-02",
         "startDate": "2018-10-31",
         "url": "https://www.scrumalliance.org/community/profile/msrabon",
         "x_imageName": "sa-csm-600.png"
-      },
+        },
+        {
+            "name": "Certified Scrum Developer® CSD®",
+            "issuer": "Scrum Alliance",
+            "endDate": "2026-12-02",
+            "startDate": "2018-10-31",
+            "url": "https://www.scrumalliance.org/community/profile/msrabon",
+            "x_imageName": "sa-csd-600.png"
 
-      {
-        "name": "Certified Scrum Developer® CSD®",
+        },
+        {
+        "name": "Advanced Certified Scrum Developer",
         "issuer": "Scrum Alliance",
-        "endDate": "2027-04-30",
+        "endDate": "2026-12-02",
         "startDate": "2018-10-31",
         "url": "https://www.scrumalliance.org/community/profile/msrabon",
-        "x_imageName": "sa-csd-600.png"
-
-      },
-      {
+        "x_imageName": "sa-adv_csd-600.png"
+        },
+        {
         "name": "Verified International Academic Qualifications",
         "issuer": "World Education Services",
         "startDate": "2019-05-31",
         "url": "https://t.cred.ly/DJd4GjMRAb5nXFDRc_Gxvg,,$$$-vSkfoZy_6c_oPIYpu8kCopIoojMMkV9K_AG1HLdyDyb09G63wXSckPwuMlR8YAKhqGYILIOjzjyp08PnREI7lJVN2jPlUckibDQy_A-8bM,?r=https%3A%2F%2Fwes.credly.com%2Fmember-badges%2F17790095&t=1556947257",
         "x_imageName": "ca92a9b7a4c63f4332f69ca309db9235_17.png"
-      }
+        }
     ],
     "publications": [],
     "skills": [
