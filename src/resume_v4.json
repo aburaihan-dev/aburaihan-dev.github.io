@@ -105,24 +105,6 @@
     ],
     "education": [
       {
-        "institution": "Institute of Business Administration, University of Dhaka",
-        "area": "Advanced Certificate for Management Professionals (ACMP) 4.0",
-        "studyType": "Certification",
-        "startDate": "03/07/2025",
-        "endDate": "06/20/2025",
-        "score": "",
-        "courses": [
-            "Accounting (AC) for Decision Making",
-            "Marketing in Changing Environments (MKT)",
-            "Managerial Communication (MC)",
-            "Data Driven Decision Making (DDM)",
-            "Finance (FIN)",
-            "People Management (PM)",
-            "Operations & Project Management (MOP)",
-            "Strategy & Innovation (SI)"
-        ]
-      },
-      {
         "institution": " BASIS-SEIP Tranche-3, BASIS",
         "area": "Software Design & Architecture",
         "studyType": "Certification",
